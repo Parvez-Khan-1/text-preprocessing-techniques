@@ -1,0 +1,12 @@
+
+
+The main objective behind stemming and lemmatization is to reduce reduce inflectional forms and sometimes derivationally related forms of a word to a common base form
+
+Lemmatization is closely related to stemming. The difference is that a stemmer operates on a single word without knowledge of the context, and therefore cannot discriminate between words which have different meanings depending on part of speech. However, stemmers are typically easier to implement and run faster, and the reduced accuracy may not matter for some applications.
+
+For instance:
+
+The word "better" has "good" as its lemma. This link is missed by stemming, as it requires a dictionary look-up.
+The word "walk" is the base form for word "walking", and hence this is matched in both stemming and lemmatisation.
+The word "meeting" can be either the base form of a noun or a form of a verb ("to meet") depending on the context, e.g., "in our last meeting" or "We are meeting again tomorrow". Unlike stemming, lemmatisation can in principle select the appropriate lemma depending on the context.
+
