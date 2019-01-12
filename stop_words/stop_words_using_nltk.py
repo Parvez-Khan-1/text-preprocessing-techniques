@@ -44,6 +44,8 @@ def version_2():
     sentence = "Computers are like old testaments gods, lots of rule and no mercy!!"
 
     stop_words_list = get_stop_words()
+
+    # Add Custom Stop Words
     stop_words_list = add_custom_stop_words(['!', '.'], stop_words_list)
 
     sentence_tokens = tokenize_sentence(sentence)
