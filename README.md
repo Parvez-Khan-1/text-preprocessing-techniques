@@ -11,5 +11,6 @@ Followings are the preprocessing techniques we covered in this repo:
     1. Stemming
     2. Lemmatization
     3. Stop Words Removal
+    4. Tokenization
 
 Suggestions are most Welcome :)
