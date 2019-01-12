@@ -10,3 +10,8 @@ The word "better" has "good" as its lemma. This link is missed by stemming, as i
 The word "walk" is the base form for word "walking", and hence this is matched in both stemming and lemmatisation.
 The word "meeting" can be either the base form of a noun or a form of a verb ("to meet") depending on the context, e.g., "in our last meeting" or "We are meeting again tomorrow". Unlike stemming, lemmatisation can in principle select the appropriate lemma depending on the context.
 
+Example Difference Between Stemming & Lemmatization:
+
+word "Communities" will become "Community" after lemmatization
+
+Where as "Communities" will become "commun" after Stemming
